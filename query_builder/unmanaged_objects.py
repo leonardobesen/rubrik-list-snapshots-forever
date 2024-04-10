@@ -1,4 +1,4 @@
-def all_unmanaged_objects_by_cluster(cluster_id: str, after=None) -> tuple[str, dict[str, str]]:
+def all_unmanaged_objects_by_cluster(cluster_id: str, after=None) -> tuple[str, dict]:
     if after is not None:
         after_value = f'= "{after}"'
     else:
